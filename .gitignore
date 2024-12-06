@@ -16,12 +16,9 @@ doc/*.txt
 # ignore all .pdf files in the doc/ directory and any of its subdirectories
 doc/**/*.pdf
 
-# Intermediate data files 
+# ignore intermediate data files 
 script/*.csv
-
-# Work-in-progress scripts
-script/main.py
-script/collectdata.py
-
-# De-bugging jupyter notebook
-script/test.ipynb
+ 
+# OS generated files #
+######################
+.DS_Store
