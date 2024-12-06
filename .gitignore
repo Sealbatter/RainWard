@@ -1,0 +1,9 @@
+# Intermediate data files 
+script/*.csv
+
+# Work-in-progress scripts
+script/main.py
+script/collectdata.py
+
+# De-bugging jupyter notebook
+script/test.ipynb
