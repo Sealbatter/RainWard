@@ -11,7 +11,7 @@ import datetime
 
 PATH = os.getcwd()
 MINUTES = 10
-DESTINATION_DIR = '../data/data.csv'
+DESTINATION = os.path.join(PATH, '..', 'data', 'data.csv')
 def PeriodicJob():
     '''
     Every 15 minutes, fetches the 2 hour forecast from data.gov.sg API and
@@ -24,7 +24,7 @@ def PeriodicJob():
 
     while True:
         now = datetime.datetime.now().strftime('%d-%m-%Y %H:%M:%S')
-        data = pd.read_csv(os.path.join(PATH, 'frequencydata', 'data.csv'), on_bad_lines='warn')
+        data = pd.read_csv(DESTINATION, on_bad_lines='warn')
         MostRecentTimestamp = data['Timestamp'].iloc[-1]
 
         logging.info(f'Data collected from data.gov.sg API, time now is {now}!')
@@ -36,7 +36,7 @@ def PeriodicJob():
                                                     # same as the current Timestamp
 
             # Writes the latest forecast Timestamp into data.csv
-            with open(DESTINATION_DIR, 'a') as f_object:
+            with open(DESTINATION, 'a') as f_object:
         
                 writer_object = writer(f_object)
 

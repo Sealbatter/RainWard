@@ -7,3 +7,6 @@ I have not really settled on how I want to implement RainWard as a program yet, 
 There is no user-interface yet, but there are 2 main scripts in the ```scripts/``` directory that can be run.
 1.  ```visualise.py``` which outputs a plot of the most updated 5 minute rainfall readings from Singapore's extensive rain gauge network.
 2. ```forecastvisualise.py``` which outputs a plot of the most updated 2-hour weather forecast over every town in Singapore.
+
+## Miscellaneous script
+```periodicscript.py``` is a script that when run, pulls the 2-hour forecast data over Tampines every 10 minutes and cumulatively writes this into ```data.csv``` located in the ```data/``` directory. I am currently using this script to keep a record of what was forecasted over Tampines and what time the forecasts were made. (Maybe in future, I can do some analytics with the data).
