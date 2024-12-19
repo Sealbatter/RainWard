@@ -1,48 +1,48 @@
-,timestamp,area,forecast,valid_period,latitude,longitude
-0,2024-11-07T10:40:39+08:00,Ang Mo Kio,Partly Cloudy (Day),10.30 am to 12.30 pm,1.375,103.839
-0,2024-11-07T10:40:39+08:00,Bedok,Partly Cloudy (Day),10.30 am to 12.30 pm,1.321,103.924
-0,2024-11-07T10:40:39+08:00,Bishan,Partly Cloudy (Day),10.30 am to 12.30 pm,1.350772,103.839
-0,2024-11-07T10:40:39+08:00,Boon Lay,Showers,10.30 am to 12.30 pm,1.304,103.701
-0,2024-11-07T10:40:39+08:00,Bukit Batok,Partly Cloudy (Day),10.30 am to 12.30 pm,1.353,103.754
-0,2024-11-07T10:40:39+08:00,Bukit Merah,Showers,10.30 am to 12.30 pm,1.277,103.819
-0,2024-11-07T10:40:39+08:00,Bukit Panjang,Partly Cloudy (Day),10.30 am to 12.30 pm,1.362,103.77195
-0,2024-11-07T10:40:39+08:00,Bukit Timah,Partly Cloudy (Day),10.30 am to 12.30 pm,1.325,103.791
-0,2024-11-07T10:40:39+08:00,Central Water Catchment,Partly Cloudy (Day),10.30 am to 12.30 pm,1.38,103.805
-0,2024-11-07T10:40:39+08:00,Changi,Partly Cloudy (Day),10.30 am to 12.30 pm,1.357,103.987
-0,2024-11-07T10:40:39+08:00,Choa Chu Kang,Partly Cloudy (Day),10.30 am to 12.30 pm,1.377,103.745
-0,2024-11-07T10:40:39+08:00,City,Showers,10.30 am to 12.30 pm,1.292,103.844
-0,2024-11-07T10:40:39+08:00,Clementi,Showers,10.30 am to 12.30 pm,1.315,103.76
-0,2024-11-07T10:40:39+08:00,Geylang,Partly Cloudy (Day),10.30 am to 12.30 pm,1.318,103.884
-0,2024-11-07T10:40:39+08:00,Hougang,Partly Cloudy (Day),10.30 am to 12.30 pm,1.361218,103.886
-0,2024-11-07T10:40:39+08:00,Jalan Bahar,Showers,10.30 am to 12.30 pm,1.347,103.67
-0,2024-11-07T10:40:39+08:00,Jurong East,Showers,10.30 am to 12.30 pm,1.326,103.737
-0,2024-11-07T10:40:39+08:00,Jurong Island,Showers,10.30 am to 12.30 pm,1.266,103.699
-0,2024-11-07T10:40:39+08:00,Jurong West,Showers,10.30 am to 12.30 pm,1.34039,103.705
-0,2024-11-07T10:40:39+08:00,Kallang,Partly Cloudy (Day),10.30 am to 12.30 pm,1.312,103.862
-0,2024-11-07T10:40:39+08:00,Lim Chu Kang,Partly Cloudy (Day),10.30 am to 12.30 pm,1.423,103.717332
-0,2024-11-07T10:40:39+08:00,Mandai,Partly Cloudy (Day),10.30 am to 12.30 pm,1.419,103.812
-0,2024-11-07T10:40:39+08:00,Marine Parade,Partly Cloudy (Day),10.30 am to 12.30 pm,1.297,103.891
-0,2024-11-07T10:40:39+08:00,Novena,Partly Cloudy (Day),10.30 am to 12.30 pm,1.327,103.826
-0,2024-11-07T10:40:39+08:00,Pasir Ris,Partly Cloudy (Day),10.30 am to 12.30 pm,1.37,103.948
-0,2024-11-07T10:40:39+08:00,Paya Lebar,Partly Cloudy (Day),10.30 am to 12.30 pm,1.358,103.914
-0,2024-11-07T10:40:39+08:00,Pioneer,Showers,10.30 am to 12.30 pm,1.315,103.675
-0,2024-11-07T10:40:39+08:00,Pulau Tekong,Partly Cloudy (Day),10.30 am to 12.30 pm,1.403,104.053
-0,2024-11-07T10:40:39+08:00,Pulau Ubin,Partly Cloudy (Day),10.30 am to 12.30 pm,1.404,103.96
-0,2024-11-07T10:40:39+08:00,Punggol,Partly Cloudy (Day),10.30 am to 12.30 pm,1.401,103.904
-0,2024-11-07T10:40:39+08:00,Queenstown,Showers,10.30 am to 12.30 pm,1.291,103.78576
-0,2024-11-07T10:40:39+08:00,Seletar,Partly Cloudy (Day),10.30 am to 12.30 pm,1.404,103.869
-0,2024-11-07T10:40:39+08:00,Sembawang,Partly Cloudy (Day),10.30 am to 12.30 pm,1.445,103.818495
-0,2024-11-07T10:40:39+08:00,Sengkang,Partly Cloudy (Day),10.30 am to 12.30 pm,1.384,103.891443
-0,2024-11-07T10:40:39+08:00,Sentosa,Showers,10.30 am to 12.30 pm,1.243,103.832
-0,2024-11-07T10:40:39+08:00,Serangoon,Partly Cloudy (Day),10.30 am to 12.30 pm,1.357,103.865
-0,2024-11-07T10:40:39+08:00,Southern Islands,Showers,10.30 am to 12.30 pm,1.208,103.842
-0,2024-11-07T10:40:39+08:00,Sungei Kadut,Partly Cloudy (Day),10.30 am to 12.30 pm,1.413,103.756
-0,2024-11-07T10:40:39+08:00,Tampines,Partly Cloudy (Day),10.30 am to 12.30 pm,1.345,103.944
-0,2024-11-07T10:40:39+08:00,Tanglin,Showers,10.30 am to 12.30 pm,1.308,103.813
-0,2024-11-07T10:40:39+08:00,Tengah,Partly Cloudy (Day),10.30 am to 12.30 pm,1.374,103.715
-0,2024-11-07T10:40:39+08:00,Toa Payoh,Partly Cloudy (Day),10.30 am to 12.30 pm,1.334304,103.856327
-0,2024-11-07T10:40:39+08:00,Tuas,Showers,10.30 am to 12.30 pm,1.294947,103.635
-0,2024-11-07T10:40:39+08:00,Western Islands,Showers,10.30 am to 12.30 pm,1.205926,103.746
-0,2024-11-07T10:40:39+08:00,Western Water Catchment,Partly Cloudy (Day),10.30 am to 12.30 pm,1.405,103.689
-0,2024-11-07T10:40:39+08:00,Woodlands,Partly Cloudy (Day),10.30 am to 12.30 pm,1.432,103.786528
-0,2024-11-07T10:40:39+08:00,Yishun,Partly Cloudy (Day),10.30 am to 12.30 pm,1.418,103.839
+,timestamp,area,forecast,valid_period,category,latitude,longitude
+0,2024-12-20T00:35:37+08:00,Ang Mo Kio,Cloudy,12.30 am to 2.30 am,dry,1.375,103.839
+0,2024-12-20T00:35:37+08:00,Bedok,Cloudy,12.30 am to 2.30 am,dry,1.321,103.924
+0,2024-12-20T00:35:37+08:00,Bishan,Cloudy,12.30 am to 2.30 am,dry,1.350772,103.839
+0,2024-12-20T00:35:37+08:00,Boon Lay,Cloudy,12.30 am to 2.30 am,dry,1.304,103.701
+0,2024-12-20T00:35:37+08:00,Bukit Batok,Cloudy,12.30 am to 2.30 am,dry,1.353,103.754
+0,2024-12-20T00:35:37+08:00,Bukit Merah,Cloudy,12.30 am to 2.30 am,dry,1.277,103.819
+0,2024-12-20T00:35:37+08:00,Bukit Panjang,Cloudy,12.30 am to 2.30 am,dry,1.362,103.77195
+0,2024-12-20T00:35:37+08:00,Bukit Timah,Cloudy,12.30 am to 2.30 am,dry,1.325,103.791
+0,2024-12-20T00:35:37+08:00,Central Water Catchment,Cloudy,12.30 am to 2.30 am,dry,1.38,103.805
+0,2024-12-20T00:35:37+08:00,Changi,Cloudy,12.30 am to 2.30 am,dry,1.357,103.987
+0,2024-12-20T00:35:37+08:00,Choa Chu Kang,Cloudy,12.30 am to 2.30 am,dry,1.377,103.745
+0,2024-12-20T00:35:37+08:00,City,Cloudy,12.30 am to 2.30 am,dry,1.292,103.844
+0,2024-12-20T00:35:37+08:00,Clementi,Cloudy,12.30 am to 2.30 am,dry,1.315,103.76
+0,2024-12-20T00:35:37+08:00,Geylang,Cloudy,12.30 am to 2.30 am,dry,1.318,103.884
+0,2024-12-20T00:35:37+08:00,Hougang,Cloudy,12.30 am to 2.30 am,dry,1.361218,103.886
+0,2024-12-20T00:35:37+08:00,Jalan Bahar,Cloudy,12.30 am to 2.30 am,dry,1.347,103.67
+0,2024-12-20T00:35:37+08:00,Jurong East,Cloudy,12.30 am to 2.30 am,dry,1.326,103.737
+0,2024-12-20T00:35:37+08:00,Jurong Island,Cloudy,12.30 am to 2.30 am,dry,1.266,103.699
+0,2024-12-20T00:35:37+08:00,Jurong West,Cloudy,12.30 am to 2.30 am,dry,1.34039,103.705
+0,2024-12-20T00:35:37+08:00,Kallang,Cloudy,12.30 am to 2.30 am,dry,1.312,103.862
+0,2024-12-20T00:35:37+08:00,Lim Chu Kang,Cloudy,12.30 am to 2.30 am,dry,1.423,103.717332
+0,2024-12-20T00:35:37+08:00,Mandai,Cloudy,12.30 am to 2.30 am,dry,1.419,103.812
+0,2024-12-20T00:35:37+08:00,Marine Parade,Cloudy,12.30 am to 2.30 am,dry,1.297,103.891
+0,2024-12-20T00:35:37+08:00,Novena,Cloudy,12.30 am to 2.30 am,dry,1.327,103.826
+0,2024-12-20T00:35:37+08:00,Pasir Ris,Cloudy,12.30 am to 2.30 am,dry,1.37,103.948
+0,2024-12-20T00:35:37+08:00,Paya Lebar,Cloudy,12.30 am to 2.30 am,dry,1.358,103.914
+0,2024-12-20T00:35:37+08:00,Pioneer,Cloudy,12.30 am to 2.30 am,dry,1.315,103.675
+0,2024-12-20T00:35:37+08:00,Pulau Tekong,Cloudy,12.30 am to 2.30 am,dry,1.403,104.053
+0,2024-12-20T00:35:37+08:00,Pulau Ubin,Cloudy,12.30 am to 2.30 am,dry,1.404,103.96
+0,2024-12-20T00:35:37+08:00,Punggol,Cloudy,12.30 am to 2.30 am,dry,1.401,103.904
+0,2024-12-20T00:35:37+08:00,Queenstown,Cloudy,12.30 am to 2.30 am,dry,1.291,103.78576
+0,2024-12-20T00:35:37+08:00,Seletar,Cloudy,12.30 am to 2.30 am,dry,1.404,103.869
+0,2024-12-20T00:35:37+08:00,Sembawang,Cloudy,12.30 am to 2.30 am,dry,1.445,103.818495
+0,2024-12-20T00:35:37+08:00,Sengkang,Cloudy,12.30 am to 2.30 am,dry,1.384,103.891443
+0,2024-12-20T00:35:37+08:00,Sentosa,Cloudy,12.30 am to 2.30 am,dry,1.243,103.832
+0,2024-12-20T00:35:37+08:00,Serangoon,Cloudy,12.30 am to 2.30 am,dry,1.357,103.865
+0,2024-12-20T00:35:37+08:00,Southern Islands,Cloudy,12.30 am to 2.30 am,dry,1.208,103.842
+0,2024-12-20T00:35:37+08:00,Sungei Kadut,Cloudy,12.30 am to 2.30 am,dry,1.413,103.756
+0,2024-12-20T00:35:37+08:00,Tampines,Cloudy,12.30 am to 2.30 am,dry,1.345,103.944
+0,2024-12-20T00:35:37+08:00,Tanglin,Cloudy,12.30 am to 2.30 am,dry,1.308,103.813
+0,2024-12-20T00:35:37+08:00,Tengah,Cloudy,12.30 am to 2.30 am,dry,1.374,103.715
+0,2024-12-20T00:35:37+08:00,Toa Payoh,Cloudy,12.30 am to 2.30 am,dry,1.334304,103.856327
+0,2024-12-20T00:35:37+08:00,Tuas,Cloudy,12.30 am to 2.30 am,dry,1.294947,103.635
+0,2024-12-20T00:35:37+08:00,Western Islands,Cloudy,12.30 am to 2.30 am,dry,1.205926,103.746
+0,2024-12-20T00:35:37+08:00,Western Water Catchment,Cloudy,12.30 am to 2.30 am,dry,1.405,103.689
+0,2024-12-20T00:35:37+08:00,Woodlands,Cloudy,12.30 am to 2.30 am,dry,1.432,103.786528
+0,2024-12-20T00:35:37+08:00,Yishun,Cloudy,12.30 am to 2.30 am,dry,1.418,103.839

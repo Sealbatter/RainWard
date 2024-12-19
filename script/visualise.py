@@ -42,7 +42,8 @@ def Visualise():
     CurrentPrecipDF['values'] = CurrentPrecipDF['values'].astype(float)  # Ensure the column is float type
 
     # Reading of the SG geojson file
-    singapore_map = gpd.read_file('NationalMapPolygonKML.geojson')
+    script_dir = os.path.abspath(os.path.dirname(__file__))
+    singapore_map = gpd.read_file(os.path.join(script_dir, 'NationalMapPolygonKML.geojson'))
 
     # Prepare the data for the heatmap animation
     time_groups = CurrentPrecipDF.groupby('timestamp')

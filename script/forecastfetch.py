@@ -48,12 +48,16 @@ def ForecastFetch():
     ForecastList = [dict['forecast'] for dict in forecast]
     timestampList = [update_timestamp for dict in forecast]
     valid_periodList = [valid_period for dict in forecast]
+    
+    # Grouping all data to either 'wet' or 'dry' according to the forecast value
+    forecastvalues = pd.read_csv(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'misc', 'forecastvalues.csv'))
+    categoryList = [forecastvalues[forecastvalues['forecast'] == forecast]['category'].iloc[0] for forecast in ForecastList]
 
-    data = {'timestamp': timestampList, 'area': AreaList, 'forecast': ForecastList, 'valid_period': valid_periodList}
+    data = {'timestamp': timestampList, 'area': AreaList, 'forecast': ForecastList, 'valid_period': valid_periodList, 'category': categoryList}
     CurrentForecastDF = pd.DataFrame(data=data)
 
     # Adding coordinate information into CurrentForecastDF
-    new_df = pd.DataFrame(columns=['timestamp', 'area', 'forecast', 'valid_period', 'latitude', 'longitude'])
+    new_df = pd.DataFrame(columns=['timestamp', 'area', 'forecast', 'valid_period', 'category', 'latitude', 'longitude'])
     for Forecastmetadf_row in MetaData.iterrows():
         for Forecastdf_row in CurrentForecastDF.iterrows():
             if Forecastmetadf_row[1]['name'] == Forecastdf_row[1]['area']:
