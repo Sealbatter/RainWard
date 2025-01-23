@@ -15,7 +15,7 @@ On a relatively dry period with little to no rainfall being registered in the ra
 ![](figures/Dry_day.png)
 
 On a cloudy day, upon running the ```scripts/forecastvisualise.py``` script, expect to see a plot that looks like this:
-~[](figures/Cloudyday.png)
+![](figures/Cloudyday.png)
 
 ## Miscellaneous script
 ```periodicscript.py``` is a script that when run, pulls the 2-hour forecast data over Tampines every 10 minutes and cumulatively writes this into ```data.csv``` located in the ```data/``` directory. I am currently using this script to keep a record of what was forecasted over Tampines and what time the forecasts were made. (Maybe in future, I can do some analytics with the data).
