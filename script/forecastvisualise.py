@@ -49,7 +49,6 @@ def ForecastVisualise():
     # Plotting the 2-hour forecasts for every township
     ## Plotting the positions of the townships and respective colours depending on forecast
     weights = CurrentForecastDF['weights'].astype(str)
-    print(weights)
     for category in CurrentForecastDF['category']:
         if category == 'dry':
               ax.scatter(CurrentForecastDF['longitude'], 
