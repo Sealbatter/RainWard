@@ -2,8 +2,6 @@
 This script plots out the current precipitation readings heatmap from the past 5 minutes geospatially and saves
 a .png file which shows the precipitation intensity geospatial information over Singapore
 '''
-import requests
-import json
 import os
 import pandas as pd
 import geopandas as gpd
@@ -43,7 +41,7 @@ def Visualise():
 
     # Reading of the SG geojson file
     script_dir = os.path.abspath(os.path.dirname(__file__))
-    singapore_map = gpd.read_file(os.path.join(script_dir, 'NationalMapPolygonKML.geojson'))
+    singapore_map = gpd.read_file(os.path.join(script_dir, 'MasterPlan2019PlanningAreaBoundaryNoSea.geojson'))
 
     # Prepare the data for the heatmap animation
     time_groups = CurrentPrecipDF.groupby('timestamp')
@@ -70,7 +68,7 @@ def Visualise():
         timestamp, time_slice = frame
         
         # Plot the Singapore map
-        singapore_map.plot(ax=ax, color='lightgray', edgecolor='lightgray')
+        singapore_map.plot(ax=ax, color='lightgray', edgecolor='darkgray')
         
         # Create the scatter plot for the current frame
         sc = ax.scatter(
@@ -97,12 +95,6 @@ def Visualise():
 
     # Create the animation
     ani = animation.FuncAnimation(fig, update, frames=frames, repeat=False)
-
-    # Save the animation as a gif or mp4
-    ani.save("rainfall_animation_with_colorbar.png", writer='imagemagick', fps=1)
-
-    # To save as mp4
-    # ani.save("rainfall_animation_with_colorbar.mp4", writer='ffmpeg', fps=2)
 
     plt.show()
 

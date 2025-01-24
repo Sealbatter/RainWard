@@ -52,8 +52,9 @@ def ForecastFetch():
     # Grouping all data to either 'wet' or 'dry' according to the forecast value
     forecastvalues = pd.read_csv(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'misc', 'forecastvalues.csv'))
     categoryList = [forecastvalues[forecastvalues['forecast'] == forecast]['category'].iloc[0] for forecast in ForecastList]
+    weightList = [forecastvalues[forecastvalues['forecast'] == forecast]['weight'].iloc[0] for forecast in ForecastList]
 
-    data = {'timestamp': timestampList, 'area': AreaList, 'forecast': ForecastList, 'valid_period': valid_periodList, 'category': categoryList}
+    data = {'timestamp': timestampList, 'area': AreaList, 'forecast': ForecastList, 'valid_period': valid_periodList, 'category': categoryList, 'weights': weightList}
     CurrentForecastDF = pd.DataFrame(data=data)
 
     # Adding coordinate information into CurrentForecastDF

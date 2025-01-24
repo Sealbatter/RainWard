@@ -1,24 +1,24 @@
-forecast,category
-Fair,dry
-Fair (Day),dry
-Fair (Night),dry
-Fair and Warm,dry
-Partly Cloudy,dry
-Partly Cloudy (Day),dry
-Partly Cloudy (Night),dry
-Cloudy,dry
-Hazy,dry
-Slightly Hazy,dry
-Windy,dry
-Mist,dry
-Fog,dry
-Light Rain,wet
-Moderate Rain,wet
-Heavy Rain,wet
-Passing Showers,wet
-Light Showers,wet
-Showers,wet
-Heavy Showers,wet
-Thundery Showers,wet
-Heavy Thundery Showers,wet
-Heavy Thundery Showers with Gusty Winds,wet
+forecast,category,weight
+Fair,dry,0
+Fair (Day),dry,0
+Fair (Night),dry,0
+Fair and Warm,dry,0
+Partly Cloudy,dry,0
+Partly Cloudy (Day),dry,0
+Partly Cloudy (Night),dry,0
+Cloudy,dry,50
+Hazy,dry,50
+Slightly Hazy,dry,50
+Windy,dry,50
+Mist,dry,50
+Fog,dry,50
+Light Rain,wet,#89CFF0
+Moderate Rain,wet,#0096FF
+Heavy Rain,wet,#00008B
+Passing Showers,wet,#00FFFF
+Light Showers,wet,#89CFF0
+Showers,wet,#0096FF
+Heavy Showers,wet,#00008B
+Thundery Showers,wet,#0096FF
+Heavy Thundery Showers,wet,#00008B
+Heavy Thundery Showers with Gusty Winds,wet,#000080

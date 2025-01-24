@@ -38,21 +38,25 @@ def ForecastVisualise():
 
     # Reading of the SG geojson file
     script_dir = os.path.abspath(os.path.dirname(__file__))
-    singapore_map = gpd.read_file(os.path.join(script_dir, 'NationalMapPolygonKML.geojson'))
+    singapore_map = gpd.read_file(os.path.join(script_dir, 'MasterPlan2019PlanningAreaBoundaryNoSea.geojson'))
 
     # Set up the figure and axis
     fig, ax = plt.subplots(figsize=(10, 6))
 
     # Plot the Singapore map
-    singapore_map.plot(ax=ax, color='lightgray', edgecolor='lightgray')
+    singapore_map.plot(ax=ax, color='lightgray', edgecolor='darkgray')
     
     # Plotting the 2-hour forecasts for every township
-
-    ## Plotting the positions of the townships
-    colorlist = ['grey' if category == 'dry' else 'blue' for category in CurrentForecastDF['category']]
-    ax.scatter(CurrentForecastDF['longitude'], 
-            CurrentForecastDF['latitude'], 
-            alpha=0.7, color=colorlist)
+    ## Plotting the positions of the townships and respective colours depending on forecast
+    weights = CurrentForecastDF['weights'].astype(str)
+    print(weights)
+    for category in CurrentForecastDF['category']:
+        if category == 'dry':
+              ax.scatter(CurrentForecastDF['longitude'], 
+            CurrentForecastDF['latitude'], color = 'grey')
+        else: # category == 'wet'
+            ax.scatter(CurrentForecastDF['longitude'], 
+            CurrentForecastDF['latitude'], cmap='Blues', c=weights)
     
     ## Looping through all townships and annotating the current forecast
     ## for that township
