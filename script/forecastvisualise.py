@@ -55,7 +55,7 @@ def ForecastVisualise():
             CurrentForecastDF['latitude'], color = 'grey')
         else: # category == 'wet'
             ax.scatter(CurrentForecastDF['longitude'], 
-            CurrentForecastDF['latitude'], cmap='Blues', c=weights)
+            CurrentForecastDF['latitude'], c=weights)
     
     ## Looping through all townships and annotating the current forecast
     ## for that township
